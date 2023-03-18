@@ -18,3 +18,4 @@ contract NonceContract {
         return ++outboundNonce[_chainId][_path];
     }
 }
+//TODO create a nonce calculator script
